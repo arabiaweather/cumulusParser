@@ -1,3 +1,4 @@
+var clone = require('clone');
 var _fields = {
 			date: 0, time: 1, temp: 2, hum: 3, dew: 4, wspeed: 5, wlatest: 6, bearing: 7, rrate: 8, rfall: 9,
 			press: 10, currentwdir: 11, beaufortnumber: 12, windunit: 13, tempunitnodeg: 14, pressunit: 15,
@@ -11,7 +12,7 @@ var _fields = {
 
 function parseToJson(data) {
 	data = data.split(" ");
-	var fields = _fields;
+	var fields =clone( _fields);
 	for(var field in fields)
 	{
 		fields[field] = data[fields[field]];
