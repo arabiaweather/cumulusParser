@@ -1,0 +1,27 @@
+{
+  "name": "cumulus",
+  "version": "1.0.0",
+  "description": "Parse Cumuls weather stations realtime.txt to json over nodejs",
+  "main": "cumulus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arabiaweather/cumulusParser"
+  },
+  "keywords": [
+    "cumulus",
+    "weather",
+    "station",
+    "parser",
+    "json",
+    "realtime.txt"
+  ],
+  "author": "ywadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arabiaweather/cumulusParser/issues"
+  },
+  "homepage": "https://github.com/arabiaweather/cumulusParser"
+}
