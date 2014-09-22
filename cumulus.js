@@ -16,7 +16,7 @@ function parseToJson(data) {
 	{
 		fields[field] = data[fields[field]];
 	}
-	console.log(fields);
+	return(fields);
 }
 
 exports.parseToJson = parseToJson; 
